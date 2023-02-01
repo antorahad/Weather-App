@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="weather-app.png">
+    <!--Css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Weather app start-->
+    <div class="wrapper">
+        <header><i class="bi bi-arrow-left-short"></i> Weather</header>
+        <section class="input-section">
+            <p class="information"></p>
+            <input type="text" placeholder="Location name" spellcheck="false" required>
+            <div class="divider"></div>
+            <button>Device location</button>
+        </section>
+        <section class="weather-section">
+            <img src="#" alt="weather-icon">
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">°C</span>
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>_, _</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <i class="bi bi-thermometer"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">°C</span>
+                        </div>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="bi bi-droplet-half"></i>
+                    <div class="details">
+                            <span>_</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Weather app end-->
+
+    <!--JavaScript link-->
+    <script src="main.js"></script>
+</body>
+</html>
